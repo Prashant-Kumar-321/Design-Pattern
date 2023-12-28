@@ -1,4 +1,5 @@
 #pragma once // Header guard (Non-Standard way)
+
 /**
  * Standard way 
  * for Header guard 
@@ -9,7 +10,8 @@
  * #endif 
 */
 
-class Vehicle {
+class Vehicle 
+{
 public: 
   virtual void createVehicle() = 0;
 }; 
