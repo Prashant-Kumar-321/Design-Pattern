@@ -5,12 +5,13 @@
 
 int main()
 {
-	Vehicle* vehicle = nullptr; 
+	Vehicle* vehicle = nullptr;
 	std::string vehicleType = ""; 
+	std::cout << "Enter Vehicle type " << std::endl; 
 	std::cin >> vehicleType;
 	std::cin.get(); // discard '\n' from input buffer 
 
-	vehicle = VehicleFactory::getVehicle(vehicleType); 
+	vehicle = VehicleFactory::getVehicle(vehicleType);
 
 	if (vehicle) {
 		vehicle->createVehicle();
@@ -22,7 +23,9 @@ int main()
 	else {
 		std::cout << "Failed to create intended vehicle " << std::endl; 
 	}
-
+	
+	// Delete all vehicles created so far
+	VehicleFactory::deleteVehicles(); 
 	std::cin.get(); 
 
 	return 0; 

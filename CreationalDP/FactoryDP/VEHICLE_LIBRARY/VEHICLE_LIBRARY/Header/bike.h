@@ -5,7 +5,7 @@
 class Bike : public Vehicle
 {
 public: 
-
+	~Bike() { std::cout << "Bike has Distroyed " << std::endl; }
 
 	// Inherited via Vehicle
 	void createVehicle() override;

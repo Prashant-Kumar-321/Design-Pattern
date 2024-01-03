@@ -12,6 +12,7 @@
 class Vehicle
 {
 public:
+	virtual~Vehicle(){ }
 	virtual void createVehicle() = 0; 
 	virtual void start() = 0; 
 	virtual void move() = 0;
