@@ -1,20 +1,31 @@
-<h1>Desing Pattern </h1>
+# Desing Patterns
 
-<P>Desing Patterns are Template of solution of commonly occuring software Problem <br>
-  Design Patterns are 
-  <ul>
-    <li>Proven</li>
-    <li>Tested</li>
-    <li>Widely Used</li>
-  </ul>
-</P>
+**Desing Patterns** are Standard Template of solutions of commonly occuring software Problems
 
-<p>There are enumerous Number of Design pattern</p>
-<div>
-  <h3>There are 3 categories of Design Pattern </h3>
-  <ol>
-    <li>Creatinal Desing Pattern </li>
-    <li>Structural Design Pattern</li>
-    <li>Behavioral Desing Pattern </li>
-  </ol>
-</div>
+## Key Points about Design Patterns
+
+1. **Proven Solutions**: 
+   - Design patterns are tried and tested solutions that have been proven to work in various scenarios.
+
+2. **Best Practices**: 
+   - They represent best practices followed by experienced software developers.
+
+3. **Reusability**: 
+   - Design patterns promote code reuse, making the software more modular and maintainable.
+
+4. **Common Language**: 
+   - They provide a common vocabulary for developers to communicate design ideas effectively.
+
+5. **Efficiency**: 
+   - Using design patterns can speed up the development process by providing tested, proven development paradigms.
+
+
+
+There are enumerous Number of Design patterns
+
+## There are **3 Categories** of Design Pattern
+```
+  >> Creational Desing Pattern
+  >> Structural Design Pattern
+  >> Behavioral Desing Pattern
+```
